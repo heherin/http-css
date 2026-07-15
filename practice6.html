@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD 실습</title>
+
+    <!-- CSS 파일 연결 -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript 파일 연결 -->
+     <script src="app.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>CRUD List</h1>
+        <p class="description">항목을 입력하고 추가, 수정, 삭제하기</p>
+
+         <!-- 항목 입력 폼 -->
+        <form id="itemForm" class="item-form">
+            <input 
+            type="text"
+            id="itemInput"
+            placeholder="항목을 입력하세요"
+            autocapitalize="off"
+            >
+            <button type="submit">추가</button>
+        </form>
+        <ul id="itemList" class="item-list"></ul>
+    </main>
+</body>
+</html>

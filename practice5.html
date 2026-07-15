@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend>개인 프로필 정보</legend>
+            <p>
+                <label for="useName">이름: </label>
+                <input type="text" id="userName" name="userName" required>
+            </p>
+
+            <p>
+                <label for="userBirth">생년월일:</label>
+                <input type="date">
+            </p>
+            <p>
+                <label><input type="radio" name="gender" value="male" checked> 남성</label>
+                <label for=""><input type="radio" name="gender" value="female"> 여성</label>
+            </p>
+            <p>
+                관심 분야 (중복 선택 가능): <br>
+                <label for=""><input type="checkbox" name="interest" value="frontend">웹 프론트엔드</label><br>
+                <label for=""><input type="checkbox" name="interest" value="uiux">UI/UX 디자인 표준</label>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
